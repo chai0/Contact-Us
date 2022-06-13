@@ -1,0 +1,97 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.form-container {
+  width: 30rem;
+  max-width: 90%;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 14px;
+}
+
+.form-input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.form-input > label,
+.form-input > input,
+.form-input > select {
+  width: 50%;
+}
+
+.form-actions,
+.form-checkbox {
+  display: flex;
+  align-self: start;
+}
+
+.form-actions {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.resetBtn {
+  box-shadow: #817ffe 1px 2px 7px;
+  background-color: white;
+  color: #817ffe;
+}
+
+button {
+  border-radius: 2em;
+  padding: 0.6em 2em;
+  border: none;
+  background-color: #817ffe;
+  color: white;
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  border-radius: 8px;
+  padding: 0.5em;
+  font-family: inherit !important;
+}
+
+textarea:focus {
+  outline: none !important;
+  border: 1px solid grey;
+  box-shadow: 0 0 10px #719ece;
+}
+
+input,
+input:focus,
+select,
+select:focus,
+select::placeholder {
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid black;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

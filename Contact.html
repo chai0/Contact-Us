@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>
+    <link rel="icon" type="image/icon" href="/images/W.confiture.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="topSection">
+      <h1 id="main--header">Contact Us</h1>
+    </div>
+
+    <div class="form-container">
+      <form>
+        <div class="form-input">
+          <label for="">First name:</label>
+          <input type="text" required placeholder="Enter your first Name*" />
+        </div>
+
+        <div class="form-input">
+          <label for="">Last name:</label>
+          <input type="text" required placeholder="Enter your last Name*" />
+        </div>
+
+        <div class="form-input">
+          <label for="">Email:</label>
+          <input type="text" required placeholder="Enter your email address*" />
+        </div>
+
+        <div class="form-input">
+          <label for="">Phone number:</label>
+          <input
+            type="number"
+            required
+            placeholder="Enter your phone number*"
+          />
+        </div>
+
+        <div class="form-input">
+          <label for="">County:</label>
+          <select id="country" name="country">
+            <option value="county">Select your county</option>
+            <option value="france">France</option>
+            <option value="germany">Germany</option>
+            <option value="israel">israel</option>
+            <option value="unitedkingdom">United Kingdom</option>
+          </select>
+        </div>
+
+        <div class="form-input">
+          <label for="">City:</label>
+          <select id="city" name="city">
+            <option value="city">Select your City</option>
+            <option value="holon">Holon</option>
+            <option value="haifa">Haifa</option>
+            <option value="rishonletsiyon">Rishon LeTsiyon</option>
+            <option value="tel-aviv">Tel-Aviv</option>
+          </select>
+        </div>
+
+        <div class="form-input">
+          <label for="">Zip Code</label>
+          <input type="number" required placeholder="Enter your zip code*" />
+        </div>
+
+        <div class="form-input">
+          <textarea id="message" name="message" rows="4" cols="50" maxlength="200" placeholder="Your message here"></textarea>
+        </div>
+
+        <p class="form-checkbox">
+          <input type="checkbox" name="" id="" />
+          I Want to subscribe.
+        </p>
+
+        <div class="form-actions">
+          <button type="submit" class="registerbtn">Send</button>
+          <button type="reset" class="resetBtn">Reset</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
